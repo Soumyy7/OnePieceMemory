@@ -1,6 +1,6 @@
 # One Piece Memory Game
 
-![One Piece Memory Game](screenshot.png)
+![One Piece Memory Game]
 
 Welcome to the One Piece Memory Game! This is a web-based memory game built using React, utilizing the `useEffect` and `useState` hooks. The game features a theme inspired by the popular anime and manga series, One Piece.
 
