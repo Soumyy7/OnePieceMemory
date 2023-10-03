@@ -63,7 +63,7 @@ function App() {
   const resetTurn = () => {
     setChoiceOne(null);
     setChoiceTwo(null);
-    setTurns((prevTurns) => prevTurns + 100000);
+    setTurns((prevTurns) => prevTurns + 1);
     setDisabled(false);
   };
 
@@ -86,7 +86,9 @@ function App() {
           />
         ))}
       </div>
-      <p>⚔︎Berries⚔︎: $ {turns}</p>
+      <p>
+        {turns !== 0 ? `⚔︎Berries⚔︎: $${turns},000,000` : "⚔︎Berries⚔︎: $0"}
+      </p>
     </div>
   );
 }
